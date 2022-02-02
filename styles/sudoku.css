@@ -1,5 +1,5 @@
 body {
-    background-color: powderblue;
+    background-color: rgb(20, 104, 116);
   }
   h1 {
     color: blue;
@@ -7,3 +7,40 @@ body {
   p {
     color: red;
   }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  #sudokuTable {
+    border: 3px solid black;
+    margin: auto
+  }
+  td {
+    padding: auto;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+  }
+  /* select 3rd and 6th row in table */
+  #sudokuTable tr:nth-child(3), #sudokuTable tr:nth-child(6)  { 
+    border-bottom: 3px black solid;
+  }
+  /* select 3rd and 6th column in table */
+  #sudokuTable td:nth-child(3), #sudokuTable td:nth-child(6){
+    border-right: 3px black solid;
+  }
+  #palette {
+    border: 3px black solid;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  .user-input {
+    background-color: #f2f2f2;
+  }
+
+  .error {
+    background-color: #f76c5e;
+  }
+
