@@ -13,7 +13,8 @@ body {
   }
   #sudokuTable {
     border: 3px solid black;
-    margin: auto
+    margin: auto;
+
   }
   td {
     padding: auto;
