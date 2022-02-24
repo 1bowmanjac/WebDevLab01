@@ -7,7 +7,7 @@ body {
   p {
     color: red;
   }
-  table, th, td {
+  #sudokuTable, #sudokuTable th, #sudokuTable td {
     border: 1px solid black;
     border-collapse: collapse;
   }
@@ -44,4 +44,15 @@ body {
   .error {
     background-color: #f76c5e;
   }
+/* high score stuff */
+#highScoreTable {
+  margin: auto;
+  border: none
+}
+#highScoreTable tr:nth-child(1){
+  border-bottom: 2px black solid;
+}
+#highScoreTable td{
+  width: 20%;
+}
 
